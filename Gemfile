@@ -43,3 +43,4 @@ gem 'inherited_resources'
 gem 'devise'
 gem 'cancan'
 
+# merda
