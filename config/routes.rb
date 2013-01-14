@@ -1,5 +1,7 @@
 AppMedica::Application.routes.draw do
 
+  get "profiles/dashboard"
+
   devise_for :users
 
   get "inicio/index", as: "inicio"
