@@ -1,5 +1,7 @@
 AppMedica::Application.routes.draw do
 
+  devise_for :users
+
   get "inicio/index", as: "inicio"
   root to: 'inicio#index'
 

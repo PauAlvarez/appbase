@@ -1,6 +1,6 @@
 class Admin::ApplicationController < ActionController::Base
   protect_from_forgery
-  # layout "admin"
+  layout "admin"
   before_filter :verify_admin
 
   def index
