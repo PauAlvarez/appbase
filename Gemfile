@@ -9,9 +9,6 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'jquery-rails'
-
-  gem 'therubyracer', :platforms => :ruby
-
   gem 'twitter-bootstrap-rails'
   gem 'compass_twitter_bootstrap'
   gem "haml"
@@ -19,6 +16,7 @@ group :assets do
 
   # gem 'brazilian-rails'
 
+  gem 'therubyracer', :platforms => :ruby
   gem 'uglifier', '>= 1.0.3'
 end
 
@@ -37,6 +35,8 @@ end
 gem 'inherited_resources'
 
 
+<<<<<<< HEAD
+=======
 ################################################################################
 # SISTEMA DE AUTENTICACAO E PERMISSAO"
 ################################################################################
@@ -44,3 +44,6 @@ gem 'devise'
 gem 'cancan'
 
 # merda
+# porra
+# git reset --hard HEAD
+# subindo esta merda
