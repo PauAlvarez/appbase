@@ -1,9 +1,18 @@
 AppMedica::Application.routes.draw do
 
+  get "profiles/dashboard"
+
   devise_for :users
 
   get "inicio/index", as: "inicio"
   root to: 'inicio#index'
+
+
+  match '/profiles/dashboard' => 'profiles#dashboard', :as => :user_root
+
+  devise_for :users, :path_names => {:sign_in => "login", :sign_out => "logout"}
+
+  resources :profiles, :only => [:dashboard]
 
   namespace :admin do
     root to: "application#index"
