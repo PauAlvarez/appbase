@@ -34,16 +34,3 @@ end
 # Gems para o sistema em geral
 gem 'inherited_resources'
 
-
-<<<<<<< HEAD
-=======
-################################################################################
-# SISTEMA DE AUTENTICACAO E PERMISSAO"
-################################################################################
-gem 'devise'
-gem 'cancan'
-
-# merda
-# porra
-# git reset --hard HEAD
-# subindo esta merda
